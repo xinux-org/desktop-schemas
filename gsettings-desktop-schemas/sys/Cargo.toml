@@ -1,6 +1,6 @@
 [package]
 name = "gsettings-desktop-schemas-sys-xinux"
-version = "0.3.1"
+version = "0.3.2"
 license = "MIT"
 description = "FFI bindings to gsettings-desktop-schemas"
 homepage = "https://gtk-rs.org/"

@@ -1,6 +1,6 @@
 [package]
 name = "gsettings-desktop-schemas-xinux"
-version = "0.3.1"
+version = "0.3.2"
 # authors = ["The Gtk-rs Project Developers", "Vlinkz", "Orzklv"]
 categories = ["api-bindings"]
 description = "Rust bindings for gsettings-desktop-schemas"
