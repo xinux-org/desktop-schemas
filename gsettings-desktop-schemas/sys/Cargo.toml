@@ -19,10 +19,10 @@ libc = "0.2"
 
 [dependencies.glib]
 package = "glib-sys"
-version = "0.18"
+version = "0.20.9"
 
 [build-dependencies]
-system-deps = "6"
+system-deps = "7"
 
 [dev-dependencies]
 shell-words = "1.0.0"

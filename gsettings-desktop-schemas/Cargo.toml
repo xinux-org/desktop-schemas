@@ -13,7 +13,7 @@ repository = "https://gitlab.gnome.org/vlinkz/gsettings-desktop-schemas-rs"
 [dependencies]
 libc = "0.2"
 bitflags = "2.4"
-glib = "0.18"
+glib = "0.20.9"
 ffi = { package = "gsettings-desktop-schemas-sys", path = "./sys", version = "0.3.1" }
 
 [features]
