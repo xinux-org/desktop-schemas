@@ -1,0 +1,48 @@
+[options]
+girs_directories = ["../gir-files", "../"]
+library = "GDesktopEnums"
+version = "3.0"
+min_cfg_version = "3.0"
+target_path = "."
+work_mode = "normal"
+
+generate_safety_asserts = true
+deprecate_by_min_version = true
+single_version_file = true
+generate_builder = true
+use_gi_docgen = true
+
+generate = [
+    "GDesktopEnums.BackgroundShading",
+    "GDesktopEnums.BackgroundStyle",
+    "GDesktopEnums.ClockFormat",
+    "GDesktopEnums.ColorScheme",
+    "GDesktopEnums.DeviceSendEvents",
+    "GDesktopEnums.FocusMode",
+    "GDesktopEnums.FocusNewWindows",
+    "GDesktopEnums.FontAntialiasingMode",
+    "GDesktopEnums.FontHinting",
+    "GDesktopEnums.FontRgbaOrder",
+    "GDesktopEnums.LocationAccuracyLevel",
+    "GDesktopEnums.MagnifierCaretTrackingMode",
+    "GDesktopEnums.MagnifierFocusTrackingMode",
+    "GDesktopEnums.MagnifierMouseTrackingMode",
+    "GDesktopEnums.MagnifierScreenPosition",
+    "GDesktopEnums.MouseDwellDirection",
+    "GDesktopEnums.MouseDwellMode",
+    "GDesktopEnums.PadButtonAction",
+    "GDesktopEnums.PointerAccelProfile",
+    "GDesktopEnums.PointingStickScrollMethod",
+    "GDesktopEnums.ProxyMode",
+    "GDesktopEnums.ScreensaverMode",
+    "GDesktopEnums.StylusButtonAction",
+    "GDesktopEnums.TabletMapping",
+    "GDesktopEnums.TitlebarAction",
+    "GDesktopEnums.ToolbarIconSize",
+    "GDesktopEnums.ToolbarStyle",
+    "GDesktopEnums.TouchpadClickMethod",
+    "GDesktopEnums.TouchpadHandedness",
+    "GDesktopEnums.TouchpadTapButtonMap",
+    "GDesktopEnums.UsbProtection",
+    "GDesktopEnums.VisualBellType"
+]

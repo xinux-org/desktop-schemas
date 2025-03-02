@@ -1,0 +1,31 @@
+[package]
+name = "gsettings-desktop-schemas-sys"
+version = "0.3.1"
+license = "MIT"
+description = "FFI bindings to gsettings-desktop-schemas"
+homepage = "https://gtk-rs.org/"
+edition = "2018"
+build = "build.rs"
+
+[package.metadata.docs.rs]
+features = []
+rustc-args = ["--cfg", "docsrs"]
+rustdoc-args = ["--cfg", "docsrs", "--generate-link-to-definition"]
+
+[package.metadata.system-deps]
+
+[dependencies]
+libc = "0.2"
+
+[dependencies.glib]
+package = "glib-sys"
+version = "0.18"
+
+[build-dependencies]
+system-deps = "6"
+
+[dev-dependencies]
+shell-words = "1.0.0"
+tempfile = "3"
+
+[features]

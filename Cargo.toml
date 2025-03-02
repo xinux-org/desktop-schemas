@@ -1,0 +1,7 @@
+[workspace]
+members = [
+     "gsettings-desktop-schemas",
+     "gsettings-desktop-schemas/sys",
+]
+
+exclude = ["gir"]

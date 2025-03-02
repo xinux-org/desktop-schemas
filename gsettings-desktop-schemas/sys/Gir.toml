@@ -1,0 +1,7 @@
+[options]
+work_mode = "sys"
+library = "GDesktopEnums"
+version = "3.0"
+min_cfg_version = "3.0"
+single_version_file = "."
+girs_directories = ["../../gir-files", "../../"]
