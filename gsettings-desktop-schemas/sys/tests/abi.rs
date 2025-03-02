@@ -4,7 +4,7 @@
 
 #![cfg(unix)]
 
-use gsettings_desktop_schemas_sys::*;
+use gsettings_desktop_schemas_sys_xinux::*;
 use std::env;
 use std::error::Error;
 use std::ffi::OsString;

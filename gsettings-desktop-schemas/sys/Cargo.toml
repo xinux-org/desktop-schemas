@@ -1,5 +1,5 @@
 [package]
-name = "gsettings-desktop-schemas-sys"
+name = "gsettings-desktop-schemas-sys-xinux"
 version = "0.3.1"
 license = "MIT"
 description = "FFI bindings to gsettings-desktop-schemas"
