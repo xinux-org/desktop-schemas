@@ -1,4 +1,2 @@
-.envrc
 /.direnv
 /target/
-Cargo.lock
