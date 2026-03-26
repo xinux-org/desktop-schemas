@@ -1,6 +1,6 @@
 [package]
 name = "gsettings-desktop-schemas-sys-xinux"
-version = "0.4.4"
+version = "0.21.5"
 license = "MIT"
 description = "FFI bindings to gsettings-desktop-schemas"
 homepage = "https://gtk-rs.org/"
@@ -19,7 +19,7 @@ libc = "0.2"
 
 [dependencies.glib]
 package = "glib-sys"
-version = "0.20.10"
+version = "0.21.5"
 
 [build-dependencies]
 system-deps = "7"

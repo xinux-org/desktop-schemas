@@ -1,6 +1,6 @@
 [package]
 name = "gsettings-desktop-schemas-xinux"
-version = "0.4.4"
+version = "0.21.5"
 # authors = ["The Gtk-rs Project Developers", "Vlinkz", "Orzklv"]
 categories = ["api-bindings"]
 description = "Rust bindings for gsettings-desktop-schemas"
@@ -12,8 +12,8 @@ repository = "https://github.com/xinux-org/desktop-schemas"
 [dependencies]
 libc = "0.2"
 bitflags = "2.4"
-glib = "0.20.12"
-ffi = { package = "gsettings-desktop-schemas-sys-xinux", path = "./sys", version = "0.4.4" }
+glib = "0.21.5"
+ffi = { package = "gsettings-desktop-schemas-sys-xinux", path = "./sys", version = "0.21.5" }
 
 [features]
 default = []
